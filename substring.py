@@ -1,8 +1,6 @@
 # sub = input()
 # for i in range(len(sub)):
-#     for j in range(1, len(sub)+1):
-#         if i >= j:
-#           continue
+#     for j in range(i+1, len(sub)+1):
 #         print(sub[i:j])
 
 # sub = input()
@@ -26,5 +24,5 @@
 #         return None
 #     y += 1
 #     return substring(sub, x, y)
-# 
+#
 # substring(input())
